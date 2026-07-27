@@ -1,0 +1,21 @@
+{
+  "azphalt": "0.1",
+  "id": "com.hereliesaz.azphalt.glitch-slice",
+  "name": "Glitch Slice",
+  "version": "1.0.0",
+  "kind": "asset",
+  "license": "LicenseRef-Proprietary",
+  "compat": ">=0.1",
+  "description": "A rhythmic digital-glitch pulse: horizontal bands jitter and RGB-desync on a beat, then snap back — a fast, percussive glitch look for cut-heavy edits, fully automatic.",
+  "author": "HereLiesAz",
+  "targetApps": ["com.hereliesaz.guillotine"],
+  "assets": [
+    {
+      "type": "shader",
+      "path": "assets/glitch-slice.fs",
+      "ui": "ui/panel.json",
+      "params": { "format": "isf" },
+      "tags": ["shader", "distortion", "glitch", "datamosh", "one-click"]
+    }
+  ]
+}

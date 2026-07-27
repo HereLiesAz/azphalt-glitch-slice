@@ -1,0 +1,6 @@
+{
+  "controls": [
+    { "type": "slider", "key": "intensity", "label": "Intensity", "min": 0, "max": 1, "step": 0.01, "default": 0.5 },
+    { "type": "slider", "key": "rate", "label": "Glitch rate", "min": 0.25, "max": 8, "step": 0.25, "default": 2.0 }
+  ]
+}
